@@ -21,9 +21,9 @@ public class Main
     price = keyboard.nextDouble();
     keyboard.nextLine();
 
-    GroceryItem thisItem = new GroceryItem(item,price);
-    thisCart.addGroceryItem(thisItem);
+    GroceryItem thisItem = new GroceryItem(item, price);
 
+    thisCart.addGroceryItem(thisItem);
     System.out.print("Do you want to continue?");
     entered = keyboard.nextLine();
 

@@ -1,12 +1,12 @@
 package com.company;
 import java.util.Scanner;
 public class GroceryItem {
+String name;
+double price;
+    Scanner keyboard = new Scanner(System.in);
 
-
-    private String name;
-    private double price;
-
-    public GroceryItem(String name, double price) {
+    public GroceryItem(String name, double price)
+    {
         this.name = name;
         this.price = price;
     }
